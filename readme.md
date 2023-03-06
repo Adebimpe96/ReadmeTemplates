@@ -3,8 +3,6 @@
 FABadminPortal is a web application built completely with React-Typescript.
 
 ## Order of Contents:
-- [Welcome to FABadminPortal · ](#welcome-to-fabadminportal--)
-- [Order of Contents:](#order-of-contents)
 - [Getting Started :](#getting-started-)
 - [Project Setup `[For Windows users]` :](#project-setup-for-windows-users-)
 
