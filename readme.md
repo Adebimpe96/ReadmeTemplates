@@ -22,7 +22,7 @@ Python 2.7.15
 ```
 Running version 1.1.10.
 ```
-- [`node --version`]
+- [`node --version`](https://nodejs.org/en/download/)
   ```
   v18.14.2
   ```
