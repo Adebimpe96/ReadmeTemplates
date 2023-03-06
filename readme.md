@@ -27,17 +27,14 @@ Running version 1.1.10.
 ## Dependencies
 The needed dependencies and their versions can be found in the package.json file.
 
-
-
 ## Setting Up on your Local `[For Windows]` :
 - Switch to the Most updated Branch `develop` in most cases.
-- The Python version needs to be added to the environment variable path after which a window build tool will be installed. Run the following command as a powershell Admin,
+- Run the following command as a powershell Admin to install a windows build tool.
   `npm install --global --production windows-build-tools`
 
    `npm install --global node-gyp`
-- This project has node-saas as one of its dependencies which depends on nodeJS version.
-- You can use `nvm current` to check the version of node you are using and `nvm use latest` to use the latest node version. 
-- Ensure to have deleted the node modules and package lock files, then run `npm install --global npm@7` to use npm version 7 for this project. 
-- Reinstall the node modules by running `npm install --legacy-peer-deps` to ignore peer dependencies and proceed with the installation.
-- This project also expects postcss version 8 as peer dependency, run `npm install -D postcss@8` to insatll and save as a dev-dependency.
+- Check [(https://github.com/coreybutler/nvm-windows#overview)] to learn more about using nvm to switch node versions.
+- Run `npm install --global npm@7` to use npm version 7 for this project. 
+- Reinstall the node modules by running `npm install --legacy-peer-deps`.
+- Run `npm install -D postcss@8` to install postcss.
 
