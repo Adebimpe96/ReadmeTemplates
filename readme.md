@@ -22,6 +22,14 @@ Python 2.7.15
 ```
 Running version 1.1.10.
 ```
+- [`node --version`]
+  ```
+  v18.14.2
+  ```
+- [`npm --version`]
+  ```
+  7.24.2
+  ```
 
 
 ## Dependencies
@@ -34,7 +42,6 @@ The needed dependencies and their versions can be found in the package.json file
 
    `npm install --global node-gyp`
 - Check [(https://github.com/coreybutler/nvm-windows#overview)] to learn more about using nvm to switch node versions.
-- Run `npm install --global npm@7` to use npm version 7 for this project. 
 - Reinstall the node modules by running `npm install --legacy-peer-deps`.
 - Run `npm install -D postcss@8` to install postcss.
 
