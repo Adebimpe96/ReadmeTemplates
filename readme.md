@@ -5,6 +5,7 @@ FABadminPortal is a web application built completely with React-Typescript.
 ## Order of Contents:
 - [Getting Started :](#getting-started-)
 - [Project Setup `[For Windows users]` :](#project-setup-for-windows-users-)
+- [Installation: ](#Installation-)
 
 ## Getting Started :
 
@@ -29,6 +30,15 @@ Tools/Environments used as at writing:
   ```
   7.24.2
   ```
+## Installation
+
+Make sure you have the latest version of npm installed. 
+Create ".env" configuration file from ".env.dist".
+Create ".env.development", ".env.staging" and ".env.production" files with env variables if needed.
+Go to the ```app``` directory, run ```npm install``` & then ```npm start``` and navigate to the development server:
+ ```(http://localhost:3000/)```
+Use "npm run build" script for making production build.
+Use "npm run build:staging" script for making build for staging.
 
 
 ## Project Setup `[For Windows users]` :
@@ -43,7 +53,7 @@ Tools/Environments used as at writing:
     ```
     npm install --global node-gyp
     ```
-- Reinstall the node modules with the ignoring peer dependencies
+- Reinstall the node modules ignoring [peer dependencies](https://indepth.dev/posts/1187/npm-peer-dependencies)
     - ```
       npm install --legacy-peer-deps
       ```
