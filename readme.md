@@ -43,7 +43,13 @@ Tools/Environments used as at writing:
     ```
     npm install --global node-gyp
     ```
-- Check [(https://github.com/coreybutler/nvm-windows#overview)] to learn more about using nvm to switch node versions.
-- Reinstall the node modules by running `npm install --legacy-peer-deps`.
-- Run `npm install -D postcss@8` to install postcss.
+- Reinstall the node modules with the ignoring peer dependencies
+    - ```
+      npm install --legacy-peer-deps
+      ```
+- Run this command to install [`postcss`](https://www.npmjs.com/package/postcss).
+    - ```
+      npm install -D postcss@8
+      ```
+  
 
